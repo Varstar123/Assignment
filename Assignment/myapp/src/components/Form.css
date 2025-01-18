@@ -1,0 +1,16 @@
+.head{
+    border-radius: 3px;
+    border: 2px solid black;
+    margin: 60px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.content{
+    border-radius: 3px;
+    border: 2px solid black;
+    margin: 60px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 7px;
+}
