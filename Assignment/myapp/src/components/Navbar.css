@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1nav :hover{
+    background-color: '#f9f9f9';
+    color: '#222222';
+}
