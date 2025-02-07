@@ -4,10 +4,8 @@ import { Button, IconButton, TextField, Toolbar } from '@mui/material';
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
-
-
-const Navbar = () => {
-  return (
+const AdminNavbar = () => {
+        return (
     <div>
         <AppBar sx={{ backgroundColor: "#ebecf1" }}>
             <div className='area1'>
@@ -23,6 +21,13 @@ const Navbar = () => {
                     <Link to = '/home'>
                         <Button variant='text' sx={{color: 'white','&:hover':{backgroundColor:'white',color:'black'}}}>Home</Button>
                     </Link>
+
+                    <Link to = '/view'>
+                        <Button variant='text' sx={{color: 'white','&:hover':{backgroundColor:'white',color:'black'}}}>View</Button>
+                    </Link>
+                    <Link to ='/add'>
+                        <Button variant='text' sx={{color: 'white','&:hover':{backgroundColor:'white',color:'black'}}}>Sell</Button>
+                    </Link>
                 </Toolbar>
             </div>
         </AppBar>
@@ -31,4 +36,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default AdminNavbar
